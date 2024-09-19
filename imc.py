@@ -1,5 +1,5 @@
 def calcular_imc(peso, altura):
-    imc = peso == (altura ** 2)  
+    imc = peso / (altura ** 2)  
     return imc
 
 def classificar_imc(imc):
