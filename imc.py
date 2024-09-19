@@ -2,6 +2,7 @@ def calcular_imc(peso, altura):
     imc = peso / (altura ** 2)  
     return imc
 
+
 def classificar_imc(imc):
     if imc < 18.5:
         return "Abaixo do peso"
